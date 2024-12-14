@@ -1,0 +1,9 @@
+{
+  "lock": false,
+  "tasks": {
+    "dev": "deno --watch --allow-net --allow-read serve.ts"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.12"
+  }
+}
